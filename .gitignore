@@ -1,0 +1,84 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments and local interpreter state
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Agent/private working instructions
+Agent_CMED.md
+
+# Old exploratory CTC trial scripts, not part of the final C-MED submission
+scripts/local_exp001_trial.py
+scripts/run_local_exp001_trial.ps1
+
+# Local reference checkouts, not part of the final reusable package
+refs/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Challenge datasets and local extracted data
+audio_data/
+metadata/
+MDD-Challenge-2025-training-set/
+MDD-Challenge-2025-public-test/
+MDD-Challenge-2025-private-test/
+
+# Generated experiment artifacts
+experiments/
+checkpoints/
+reports/
+runs/
+wandb/
+lightning_logs/
+
+# Local submissions, predictions, and scorer probes
+data/submissions/
+best_dev_predictions.csv
+results.csv
+predict.zip
+prediction.zip
+output_file.zip
+canonical_only_prediction.zip
+*_predictions.csv
+*_submission.csv
+submission_manifest.json
+scores.txt
+
+# Temporary audit and zip-check folders
+_tmp*/
+*check*/
+__zipcheck/
+__ordercheck/
+__shiftcheck/
+__pycache__/
+
+# Model and audio artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.wav
+*.flac
+*.mp3
